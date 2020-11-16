@@ -1,0 +1,12 @@
+.place__website-link {
+    text-transform: none;
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+.place__website-link:hover {
+    opacity: 0.8;
+    transition: ease-out 0.2s;
+}

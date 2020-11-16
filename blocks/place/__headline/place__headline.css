@@ -1,0 +1,33 @@
+.place__headline {
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    max-width: 440px;
+    margin-bottom: 0px;
+    line-height: 1.06;
+}
+
+@media screen and (max-width: 768px) {
+    .place__headline {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .place__headline {
+        font-size: 32px;
+        width: 200px;
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__headline {
+        font-size: 32px;
+        line-height: 1.09;
+        width: 288px;
+        padding-left: 16px;
+    }
+}

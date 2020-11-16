@@ -1,0 +1,26 @@
+.intro__desc {
+    color: white;
+    font-size: 12px;
+    padding-top: 32px;
+    font-weight: bold;
+    max-width: 690px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    line-height: 1.5;
+    padding-left: 0px;
+    padding-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__desc {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__desc {
+        padding-bottom: 64px;
+    }
+}

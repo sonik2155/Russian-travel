@@ -1,0 +1,16 @@
+F.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer__menu {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,39 @@
+@import url(./__heading/intro__heading.css);
+@import url(./__text/intro__text.css);
+@import url(./__desc/intro__desc.css);
+@import url(./__digit/intro__digit.css);
+.intro {
+    padding-top: 92px;
+    max-width: 720px;
+    width: 690px;
+    padding-left: 148px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding-left: 0px;
+        padding-top: 88px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .intro {
+        box-sizing: border-box;
+        max-width: 288px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding-top: 64px;
+    }
+}

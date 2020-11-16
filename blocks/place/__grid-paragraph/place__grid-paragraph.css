@@ -1,0 +1,31 @@
+.place__grid-paragraph {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__grid-paragraph {
+        font-size: 16px;
+        line-height: 1.62;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place__grid-paragraph {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__grid-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .place__grid-paragraph:last-of-type {
+        padding-bottom: 0px;
+    }
+}

@@ -1,0 +1,9 @@
+.place__link-container {
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 670px) {
+    .place__link-container {
+        display: none;
+    }
+}
